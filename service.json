@@ -1,0 +1,4 @@
+{
+    "MONGODB_SERVER": "mongodb+srv://task_management_system:QZqkshBXImHAYeJE@cluster0.ljdn2n5.mongodb.net/",
+    "PORT": "6000"
+}
