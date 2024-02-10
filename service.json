@@ -1,4 +1,5 @@
 {
     "MONGODB_SERVER": "mongodb+srv://task_management_system:QZqkshBXImHAYeJE@cluster0.ljdn2n5.mongodb.net/",
-    "PORT": "6000"
+    "PORT": "6000",
+    "JWT_SECRET_KEY": "JWT_SECRET_KEYRGFGJBRKGNNT"
 }
