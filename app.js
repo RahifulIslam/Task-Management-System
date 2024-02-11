@@ -8,7 +8,9 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
+const userRouter = require('./routers/userRouters');
 
+app.use('/api/user', userRouter);
 
 mongoose.connect(config.MONGODB_SERVER)
          .then(()=> console.log("Connected to MongoDB!"))
